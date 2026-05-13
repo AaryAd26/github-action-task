@@ -1,5 +1,0 @@
-name: github hosted runner
-
-on:
-  push:
-    branches: [main]
