@@ -6,10 +6,10 @@ on:
 jobs:
   info:
     runs-on: self-hosted
-    
+
     steps:
       - name: Checking following information about self-hosted runner
         run: |
           echo "Hostname: $HOSTNAME"
-          echo "Working directory: $PWD"
+          echo "Working directory of user: $PWD"
           echo "Hi from github" > hi.txt
